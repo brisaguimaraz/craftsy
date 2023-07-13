@@ -1,0 +1,100 @@
+/* HEADER */
+
+.home__header {
+    background-color: var(--colorNaranja);
+    width: 100%;
+    text-transform: uppercase;
+    color: var(--colorBeige);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home__header--logo {
+    margin: 8px;
+    width: 80px;
+}
+
+.home__header__nav__ul__li {
+    display: none;
+}
+
+.home__header__nav--login--ul--li {
+    display: none;
+}
+
+
+/* MAIN */
+
+.home__main__section__products {
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.home__main__section__products--product {
+    color: var(--colorGris);
+    padding: 10px;
+}
+
+.home__main__section__products--product img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.home__main__section__products--product p {
+    margin: 15px 0;
+}
+
+.home__main__section__products--more {
+    background-color: var(--colorNaranja);
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+/* ASIDE */
+
+.home__aside {
+    margin: 10px 15px;
+}
+
+.home__aside__div--title {
+    background-color: #FFFFFF;
+    margin: 10px 0;
+    padding: 6px;
+    border: 0.5px solid gainsboro;
+}
+
+.home__aside__div__tuto-tutoriales {
+    background-color: #FFFFFF;
+    border:  0.5px solid gainsboro;
+    display: flex;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.home__aside__div__tuto-tutoriales a {
+    color: var(--colorGris);
+    padding: 10px;
+}
+
+.home__aside__div__ads__section {
+    background-color: #FFFFFF;
+    border: 0.5px solid gainsboro;
+}
+
+.home__aside__div__ads__section--ad img {
+    width: 100%;
+    padding: 6px;
+}
+
+/* FOOTER */
+.home__footer {
+    background-color: var(--colorNaranja);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home__footer img {
+   width: 30%;
+}
