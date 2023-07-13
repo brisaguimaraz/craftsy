@@ -1,7 +1,7 @@
-const express = 'express';
+const express = require('express');
 const app = express();
 const PORT = 3030;
-const path = 'path';
+const path = require('path');
 
 /* configuraciomes */
 
